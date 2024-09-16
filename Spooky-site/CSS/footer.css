@@ -1,0 +1,23 @@
+.footer__section {
+    justify-content: center;
+    margin: 140px;
+    justify-content: space-between;
+    text-align: center;
+    font-size: var(--text-xl);
+    transform: scale();
+}
+
+.footer__div {
+    margin: 10px;
+    font-size: var(--text-5xl);
+    transform: scale(4.5);
+}
+
+.skull {
+    justify-content: center;
+    margin: 10px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: var(--text-5xl);
+    transform: scale(4.5);
+}

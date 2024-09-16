@@ -1,0 +1,131 @@
+.About__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.About__h2 {
+    font-size: var(--text-sm);
+    text-transform: capitalize;
+    line-height: 6rem;
+}
+
+.Strong__effect {
+    border: none;
+    border-radius: 10px;
+    margin: 1rem;
+    color: var(--primary-color);
+    font-size: var(--text-base);
+    display: inline-block;
+    transform: rotate(-5deg);
+    box-shadow: 3px 3px 20px var(--accent-color);
+    background-color: var(--secondary-color);
+    transition: 0.3s ease;
+}
+
+.Strong__effect:hover {
+    box-shadow: 3px 3px 40px var(--secondary-color) ;
+}
+
+
+.About__img {
+    width: 23.46875rem;
+    height: 23.46875rem;
+    margin: 2rem;
+    border-radius: 10px;
+    justify-content: right;
+    box-shadow: 3px 3px 20px var(--accent-color);
+}
+
+/* normal height "46.9375rem" */
+/* half that height "23.46875rem" */
+/* half that height "11.734375rem" */
+
+/* Default for mobile devices */
+body {
+    margin: 10px;
+}
+
+/* Tablets and small devices */
+@media (min-width: 600px) {
+    .About__section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About__img {
+        width: 23.46875rem;
+        height: 23.46875rem;
+    }
+    .Strong__effect {
+        font-size: var(--text-xl);
+    }
+    .About__h2 {
+        font-size: var(--text-base);
+    }
+    body {
+        margin: 20px;
+    }
+}
+
+/* Laptops and medium screens */
+@media (min-width: 1024px) {
+    .About__section {
+        display: flex;
+        flex-direction: row;
+    }
+    .About__img {
+        width: 23.46875rem;
+        height: 23.46875rem;
+    }
+    .Strong__effect {
+        font-size: var(--text-3xl);
+    }
+    .About__h2 {
+        font-size: var(--text-2xl);
+    }
+    body {
+        margin: 40px;
+    }
+}
+
+/* Desktops and large monitors */
+@media (min-width: 1440px) {
+    .About__section {
+        display: flex;
+        flex-direction: row;
+    }
+    .About__img {
+        width: 23.46875rem;
+        height: 23.46875rem;
+    }
+    .Strong__effect {
+        font-size: var(--text-4xl);
+    }
+    .About__h2 {
+        font-size: var(--text-3xl);
+    }
+    body {
+        margin: 60px;
+    }
+}
+
+/* Ultra-wide monitors */
+@media (min-width: 1920px) {
+    .About__section {
+        display: flex;
+        flex-direction: row;
+    }
+    .About__img {
+        width: 23.46875rem;
+        height: 23.46875rem;
+    }
+    .Strong__effect {
+        font-size: var(--text-5xl);
+    }
+    .About__h2 {
+        font-size: var(--text-5xl);
+    }
+    body {
+        margin: 80px;
+    }
+}

@@ -1,0 +1,92 @@
+.head__section {
+    align-items: center;
+    gap: 1em;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.head__h1 {
+    font-size: var(--text-4xl);
+    justify-content: left;
+}
+
+.head__ul {
+    justify-content: right;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.head__li {
+    font-size: var(--text-sm);
+    text-decoration:underline var(--text-color) 2px;
+    list-style-type: none;
+}
+
+.head__li:hover {
+    cursor: pointer;
+}
+
+
+/* Default for mobile devices */
+body {
+    margin: 10px;
+}
+
+/* Tablets and small devices */
+@media (min-width: 600px) {
+    .head__li {
+        font-size: var(--text-base);
+    }
+
+    .head__h1 {
+        font-size: var(--text-4xl);
+    }
+
+    body {
+        margin: 20px;
+    }
+}
+
+/* Laptops and medium screens */
+@media (min-width: 1024px) {
+    .head__li {
+        font-size: var(--text-lg);
+    }
+
+    .head__h1 {
+        font-size: var(--text-5xl);
+    }
+
+    body {
+        margin: 40px;
+    }
+}
+
+/* Desktops and large monitors */
+@media (min-width: 1440px) {
+    .head__li {
+        font-size: var(--text-xl);
+    }
+
+    .head__h1 {
+        font-size: var(--text-5xl);
+    }
+
+    body {
+        margin: 60px;
+    }
+}
+
+/* Ultra-wide monitors */
+@media (min-width: 1920px) {
+    .head__li {
+        font-size: var(--text-2xl);
+    }
+
+    .head__h1 {
+        font-size: var(--text-5xl);
+    }
+    body {
+        margin: 80px;
+    }
+}

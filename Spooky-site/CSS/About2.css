@@ -1,0 +1,66 @@
+.About-me__section {
+    text-align: left;
+    gap: 2rem;
+}
+
+.About-me__h2 {
+    border-radius: 10px;
+    width: fit-content;
+    background-color: var(--secondary-color);
+    box-shadow: 3px 3px 20px var(--accent-color);
+    
+}
+
+.About-me__p {
+    width: fit-content;
+    line-height: 2rem;
+    font-size: var(--text-xl);
+}
+
+.Strong__effects {
+    
+    text-decoration: underline;
+    border: none;
+    border-radius: 10px;
+    color: var(--text-color);
+    font-size: var(--text-2xl);
+    display: inline-block;
+    box-shadow: 3px 3px 10px var(--accent-color);
+    background-color: var(--secondary-color);
+}
+
+/* .About-me__line {}  */
+
+
+/* Default for mobile devices */
+body {
+    margin: 10px;
+}
+
+/* Tablets and small devices */
+@media (min-width: 600px) {
+    body {
+        margin: 20px;
+    }
+}
+
+/* Laptops and medium screens */
+@media (min-width: 1024px) {
+    body {
+        margin: 40px;
+    }
+}
+
+/* Desktops and large monitors */
+@media (min-width: 1440px) {
+    body {
+        margin: 60px;
+    }
+}
+
+/* Ultra-wide monitors */
+@media (min-width: 1920px) {
+    body {
+        margin: 80px;
+    }
+}

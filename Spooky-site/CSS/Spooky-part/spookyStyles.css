@@ -1,0 +1,15 @@
+:root {
+    --spooky-black: #0a0a0a;       /* Dark eerie black */
+    --spooky-orange: #ff7518;      /* Pumpkin orange */
+    --spooky-purple: #5a189a;      /* Deep haunting purple */
+    --spooky-green: #379634;       /* Ghastly green */
+    --spooky-grey: #4a4a4a;        /* Foggy grey */
+    --spooky-red: #aa0000;         /* Blood red */
+    --spooky-accent: #ffb347;      /* Soft glowing accent orange */
+    --spooky-background: #1d1d1d;  /* Dark background color */
+    --spooky-text: #f5f5f5;        /* Light text for contrast */
+  }
+  
+.spooky__body {
+    background-color: var(--spooky-background);
+}
